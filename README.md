@@ -7,3 +7,5 @@ The main goal of this project was to design a Power BI dashboard that provides c
 	•	To create key performance indicators (KPIs) that summarize the scale of fraud.
 	•	To explore fraud patterns across multiple dimensions (e.g., city, payment method, device used).
 	•	To build an interactive dashboard that allows users to filter and drill down into details for further investigation.
+	## Data Used
+	
