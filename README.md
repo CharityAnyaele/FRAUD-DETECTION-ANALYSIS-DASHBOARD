@@ -75,7 +75,8 @@ The completed dashboard provided both summary KPIs and detailed breakdowns:
 
 This project successfully demonstrated how Power BI can be used for fraud detection analysis. The dashboard provides an accessible way to monitor fraudulent activities, summarize KPIs, and drill into details across different dimensions. With further development, this approach can be extended to include predictive analytics (machine learning models for fraud detection) and real-time monitoring using live data sources.
 ## FINAL DASHBOARD 
-![FRAUD ANALYSIS DASHBOARD](https://github.com/user-attachments/assets/35bc95ff-9332-4c06-b8d0-8035a468c1b7)
+![FRAUD ANALYSIS DASHBOARD](https://github.com/user-attachments/assets/84b83fbf-6ddf-4486-b00f-5478301ce820)
+
 
 
 
