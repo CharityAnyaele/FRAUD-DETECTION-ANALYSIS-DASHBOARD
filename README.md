@@ -28,7 +28,7 @@ The dataset contained the following key columns:
 	•	DAX (Data Analysis Expressions) → used for creating custom measures, including:
 	•	Fraudulent Transactions 
 	•	Fraud Rate %
-	•	Average Fraud Amount
+    . Total fraud transaction. 
     ## Steps taken on this project;
 
       Methodology
@@ -37,10 +37,10 @@ The dataset contained the following key columns:
 	•	Cleaned the data using Power Query (checked nulls, corrected column formats).
 	•	Ensured fraud amounts were numerical and could be aggregated.
 	2.	Measure Creation (DAX)
-	•	Built measures to calculate KPIs like Fraud Rate %, Total Fraud Amount, and total transactions.
+	•	Built measures to calculate KPIs like Total Fraud Amount and total transactions.
 	•	Used calculated fields to update values when filters are applied dynamically.
      ## Detailed formulas used:
-    1. I used Excel to separate my data by using (text to columns to separate each column, and used the 'PROPER' function to capitalize my City name and transaction type            column, and then imported my data to Power BI.
+    1. I used Excel to separate my data by using ('TEXT to columns' to separate each column, and used the 'PROPER' function to capitalize my City name and transaction type            column.
     2. For other data cleaning, I used Power Query by selecting my table, where I removed duplicates, used TRIM text (to remove extra spaces, and changed data types to           numbers, text, and dates.
     3. I created a new column and categorized the Account age using the IF FUNCTION for example; =IF(I2<25, "New account"), IF(I2<=35, "Young account"), IF(I2<=45, "Established account"), IF(I2<=55, "Mature account"), IF(I2>56, "Old account")
     4. I got the sum of the previous fraud transaction and the current fraud transaction of each offender by using the equation e.g = H2+L2
@@ -71,7 +71,11 @@ The completed dashboard provided both summary KPIs and detailed breakdowns:
 	•	Older accounts tended to have higher fraud rates compared to Newer accounts.
 	.    Total completed transactions.
 
-
 ## Conclusion
 
 This project successfully demonstrated how Power BI can be used for fraud detection analysis. The dashboard provides an accessible way to monitor fraudulent activities, summarize KPIs, and drill into details across different dimensions. With further development, this approach can be extended to include predictive analytics (machine learning models for fraud detection) and real-time monitoring using live data sources.
+## FINAL DASHBOARD
+
+![FRAUD ANALYSIS DASHBOARD](https://github.com/user-attachments/assets/30a889b0-0806-46b8-b12d-6cb532e9f2e1)
+
+
